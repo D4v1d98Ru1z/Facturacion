@@ -1,10 +1,14 @@
 * {
+  margin: 0;
   box-sizing: border-box;
 }
 
 .cajapadre {
   max-width: 500px;
-  width: 100%;
   margin: auto;
+}
+
+.cajapadre header {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
