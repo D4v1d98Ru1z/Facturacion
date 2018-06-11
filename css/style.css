@@ -4,11 +4,72 @@
 }
 
 .cajapadre {
-  max-width: 500px;
+  max-width: 892px;
   margin: auto;
+  background: #101626;
 }
 
-.cajapadre header {
-  width: 100%;
+.cajapadre header .navB {
+  display: flex;
+}
+
+.cajapadre header .navB .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33.33%;
+}
+
+.cajapadre header .navB .logo img {
+  width: 80%;
+  height: 70%;
+}
+
+.cajapadre header .navB .datos {
+  width: 33.33%;
+  padding: 0.5%;
+}
+
+.cajapadre header .navB .datos h1 {
+  color: yellow;
+  font-family: 'Raleway';
+  font-size: .8em;
+}
+
+.cajapadre header .navB .datos p {
+  margin-top: 1em;
+  color: white;
+  font-family: 'Raleway';
+  font-size: 0.7em;
+}
+
+.cajapadre header .navB .pago {
+  width: 33.33%;
+  padding: 0.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 10px solid yellow;
+}
+
+.cajapadre header .navB .pago h3 {
+  color: white;
+  font-family: 'Raleway';
+  font-size: 1em;
+  margin-bottom: .8em;
+}
+
+.cajapadre header .navB .pago h2 {
+  color: yellow;
+  font-family: 'Arial';
+  font-weight: 300;
+}
+
+.cajapadre header .navB .pago .barra {
+  position: absolute;
+  margin-top: 4.28em;
+  height: 15px;
+  width: 18.4em;
+  background: yellow;
 }
 /*# sourceMappingURL=style.css.map */
