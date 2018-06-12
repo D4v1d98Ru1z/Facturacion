@@ -41,20 +41,19 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                border-top: 10px solid yellow;
-                //border-bottom: 5px solid yellow;
+                border-top: 10px solid yellow; //border-bottom: 5px solid yellow;
                 h3 {
                     color: white;
                     font-family: 'Raleway';
                     font-size: 1em;
                     margin-bottom: .8em;
                 }
-                h2{
+                h2 {
                     color: yellow;
                     font-family: 'Arial';
                     font-weight: 300;
                 }
-                .barra{
+                .barra {
                     position: absolute;
                     margin-top: 4.28em;
                     height: 15px;
@@ -63,5 +62,16 @@
                 }
             }
         }
+    }
+    #main {
+        height: 16px;
+        background: rgba(52, 169, 247, 1);
+        background: -moz-linear-gradient(left, rgba(52, 169, 247, 1) 0%, rgba(93, 218, 240, 1) 22%, rgba(12, 245, 86, 1) 47%, rgba(240, 240, 24, 1) 78%, rgba(208, 230, 39, 1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(52, 169, 247, 1)), color-stop(22%, rgba(93, 218, 240, 1)), color-stop(47%, rgba(12, 245, 86, 1)), color-stop(78%, rgba(240, 240, 24, 1)), color-stop(100%, rgba(208, 230, 39, 1)));
+        background: -webkit-linear-gradient(left, rgba(52, 169, 247, 1) 0%, rgba(93, 218, 240, 1) 22%, rgba(12, 245, 86, 1) 47%, rgba(240, 240, 24, 1) 78%, rgba(208, 230, 39, 1) 100%);
+        background: -o-linear-gradient(left, rgba(52, 169, 247, 1) 0%, rgba(93, 218, 240, 1) 22%, rgba(12, 245, 86, 1) 47%, rgba(240, 240, 24, 1) 78%, rgba(208, 230, 39, 1) 100%);
+        background: -ms-linear-gradient(left, rgba(52, 169, 247, 1) 0%, rgba(93, 218, 240, 1) 22%, rgba(12, 245, 86, 1) 47%, rgba(240, 240, 24, 1) 78%, rgba(208, 230, 39, 1) 100%);
+        background: linear-gradient(to right, rgba(52, 169, 247, 1) 0%, rgba(93, 218, 240, 1) 22%, rgba(12, 245, 86, 1) 47%, rgba(240, 240, 24, 1) 78%, rgba(208, 230, 39, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34a9f7', endColorstr='#d0e627', GradientType=1);
     }
 }
