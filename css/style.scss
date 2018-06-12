@@ -63,7 +63,7 @@
             }
         }
     }
-    #main {
+    .barramain {
         height: 16px;
         background: rgba(52, 169, 247, 1);
         background: -moz-linear-gradient(left, rgba(52, 169, 247, 1) 0%, rgba(93, 218, 240, 1) 22%, rgba(12, 245, 86, 1) 47%, rgba(240, 240, 24, 1) 78%, rgba(208, 230, 39, 1) 100%);
@@ -73,5 +73,48 @@
         background: -ms-linear-gradient(left, rgba(52, 169, 247, 1) 0%, rgba(93, 218, 240, 1) 22%, rgba(12, 245, 86, 1) 47%, rgba(240, 240, 24, 1) 78%, rgba(208, 230, 39, 1) 100%);
         background: linear-gradient(to right, rgba(52, 169, 247, 1) 0%, rgba(93, 218, 240, 1) 22%, rgba(12, 245, 86, 1) 47%, rgba(240, 240, 24, 1) 78%, rgba(208, 230, 39, 1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34a9f7', endColorstr='#d0e627', GradientType=1);
+    }
+    .contenidomain {
+        display: flex;
+        .datoscliente {
+            width: 66.66%;
+            background: #101626;
+            color: white;
+            font-family: 'Raleway';
+            padding: 1%;
+            h2 {
+                text-align: center;
+                color: yellow;
+                margin-bottom: 1em;
+            }
+            table{
+                tr{
+                    td{
+                        padding-top: 2%;
+                        padding-right: 1%;
+                    }
+                }
+            }
+        }
+        .resumen{
+            width: 33.34%;
+            background: #eceaed;
+            font-family: 'Raleway';
+            padding: 1%;
+            h2{
+                font-size: 1.25em;
+                margin-bottom: 0.5em;
+            }
+            .limite, .total{
+                margin-top: 1em;
+                width: 100%;
+                td{
+                padding-right: 1%;
+                }
+                .gris{
+                    color: grey;
+                }
+            }
+        }
     }
 }
